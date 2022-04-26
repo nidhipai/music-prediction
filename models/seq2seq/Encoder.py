@@ -1,3 +1,5 @@
+from torch import nn
+
 class Encoder(nn.Module):
     def __init__(self, input_size, hidden_size):
         super(Encoder, self).__init__()

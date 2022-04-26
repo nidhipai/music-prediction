@@ -1,3 +1,4 @@
+from torch import nn
 class AttnDecoder(nn.Module):
     def __init__(self, hidden_size, output_size, dropout_p=0.1, max_length=MAX_LENGTH):
         super(AttnDecoder, self).__init__()
